@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/mImageViewImage"
+        android:layout_width="85dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/warning"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/mTextViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="拥堵"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/mImageViewImage"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/mTextViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:text="2018-03-10 14:21"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mImageViewImage"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/mTextViewLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="南京工业大学江浦校区新南苑"
+        app:layout_constraintBottom_toTopOf="@+id/mTextViewTime"
+        app:layout_constraintStart_toEndOf="@+id/mImageViewImage"
+        app:layout_constraintTop_toBottomOf="@+id/mTextViewInfo"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/mTextViewPro"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="已处理"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/mTextViewLoc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mTextViewLoc"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>
