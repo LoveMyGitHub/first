@@ -68,7 +68,7 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration {
             mDivider.draw(c);
         }
     }
-
+//zczczczczczczcc
     public void drawHorizontal(Canvas c, RecyclerView parent) {
         final int top = parent.getPaddingTop();
         final int bottom = parent.getHeight() - parent.getPaddingBottom();
