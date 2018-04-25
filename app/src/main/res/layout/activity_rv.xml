@@ -8,8 +8,6 @@
     <!--android:scrollbars="vertical"-->
     <android.support.v7.widget.Toolbar
     android:id="@+id/toolbar"
-
-        android:layout_gravity="center_vertical"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
     android:background="?attr/colorPrimary"
@@ -19,10 +17,8 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/report_rlv"
-
-    android:divider="#FFB900"
-
-    android:dividerHeight="1dp"
+        android:divider="#FFB900"
+        android:dividerHeight="1dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

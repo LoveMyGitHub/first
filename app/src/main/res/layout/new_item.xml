@@ -50,7 +50,8 @@
 
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="16dp"
-        tools:text="2018-03-31 14:31" />
+        tools:text="2018-03-31 14:31"
+        tools:ignore="MissingConstraints" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
